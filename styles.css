@@ -41,9 +41,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px 40px;
+  width: 100%;
 }
 
 .brand {
