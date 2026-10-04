@@ -1,337 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subhi Muhshieh | Software Engineer & Web Developer</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="cursor-glow"></div>
-    
-    <nav class="navbar">
-        <div class="nav-brand">SM</div>
-        <div class="nav-links">
-            <a href="#hero" class="nav-link">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#experience" class="nav-link">Experience</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#contact" class="nav-link">Connect</a>
-        </div>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Subhi Muhshieh - Information Engineering student and web developer portfolio."
+    />
+    <title>Subhi Muhshieh | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a href="#home" class="brand">SM</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-    <section id="hero" class="hero">
-        <div class="hero-content">
-            <div class="glitch-wrapper">
-                <h1 class="glitch" data-text="SUBHI MUHSHIEH">SUBHI MUHSHIEH</h1>
-            </div>
-            <p class="subtitle">Information Engineering Student | Web Developer & AI Enthusiast</p>
-            <p class="tagline">Building web experiences with Next.js, React & Cloud Technologies 🚀</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary">See My Work</a>
-                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="arrow-down"></div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
+    <main id="home">
+      <section class="hero">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>I'm a fourth-year Information Engineering student (AI Specialization) at University of Lattakia with a passion for web development and emerging technologies. I've built multiple full-stack projects including websites and form platforms, with deep experience in cloud computing, cybersecurity, and AI tools.</p>
-                    <p>I currently manage the Scientific Office at Qudwa Association while continuously learning new technologies. I believe in writing clean, efficient code that solves real problems.</p>
-                </div>
-                <div class="quick-facts">
-                    <div class="fact-item">
-                        <span class="fact-icon">🎓</span>
-                        <span>4th Year Information Engineering (AI Focus)</span>
-                    </div>
-                    <div class="fact-item">
-                        <span class="fact-icon">🌍</span>
-                        <span>Based in: Lattakia, Syria</span>
-                    </div>
-                    <div class="fact-item">
-                        <span class="fact-icon">🏢</span>
-                        <span>Scientific Office Manager at Qudwa Association</span>
-                    </div>
-                    <div class="fact-item">
-                        <span class="fact-icon">📊</span>
-                        <span>English Level: C2 (EF SET Score: 93/100)</span>
-                    </div>
-                </div>
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Information Engineering Student</p>
+              <h1>Subhi Muhshieh</h1>
+              <p class="title-line">Web Developer • AI Enthusiast • Problem Solver</p>
+              <p class="lead">
+                I'm a fourth-year Information Engineering student specializing in Artificial Intelligence,
+                with hands-on experience in web development, cloud systems, cybersecurity, and digital media.
+              </p>
+              <div class="cta-row">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <section id="projects" class="projects">
+            <aside class="profile-card">
+              <span class="mini-tag">Profile</span>
+              <ul>
+                <li><strong>Location:</strong> Lattakia, Syria</li>
+                <li><strong>Focus:</strong> Web Development & AI</li>
+                <li><strong>English:</strong> C2 / EF SET 93/100</li>
+                <li><strong>Current:</strong> Scientific Office Manager</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Qudwa Association Website</h3>
-                        <a href="https://qudwa.pages.dev" target="_blank" class="project-link">Visit →</a>
-                    </div>
-                    <p class="project-description">Complete redesign and development of Qudwa Association's website. Full-stack implementation with modern web technologies and best practices.</p>
-                    <div class="project-tech">
-                        <span>Next.js</span>
-                        <span>Supabase</span>
-                        <span>Tailwind CSS</span>
-                        <span>Cloudflare Pages</span>
-                    </div>
-                </div>
+          <div class="section-head">
+            <p class="section-label">About</p>
+            <h2>Professional and academic overview</h2>
+          </div>
 
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Qudwa Forms Platform</h3>
-                        <a href="https://qudwa-form.pages.dev" target="_blank" class="project-link">Visit →</a>
-                    </div>
-                    <p class="project-description">Developed and deployed a dedicated forms website for Qudwa Association, enabling efficient data collection and management.</p>
-                    <div class="project-tech">
-                        <span>Next.js</span>
-                        <span>Form Management</span>
-                        <span>Responsive Design</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Form Builder Platform (In Progress)</h3>
-                        <span class="status">Under Development</span>
-                    </div>
-                    <p class="project-description">Building a white-label form creation platform for Qudwa Association with branded identity and customizable workflows.</p>
-                    <div class="project-tech">
-                        <span>Supabase</span>
-                        <span>Form Builder</span>
-                        <span>Branding System</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Second Opinion - Medical App Design</h3>
-                        <a href="https://behance.net/gallery/253513189/" target="_blank" class="project-link">View Case Study →</a>
-                    </div>
-                    <p class="project-description">UI/UX design project connecting patients with specialist doctors. Capstone project for the Dalini UI/UX program with comprehensive case study documentation.</p>
-                    <div class="project-tech">
-                        <span>Figma</span>
-                        <span>UI/UX Design</span>
-                        <span>Mobile App</span>
-                        <span>Case Study</span>
-                    </div>
-                </div>
+          <div class="about-grid">
+            <div class="text-block">
+              <p>
+                I am a fourth-year Information Engineering student at the University of Lattakia,
+                specializing in Artificial Intelligence. I build web applications, work with modern digital tools,
+                and continuously improve my knowledge in cloud systems, cybersecurity, and AI-driven workflows.
+              </p>
+              <p>
+                I have worked on multiple projects for Qudwa Association, including websites and forms platforms,
+                while also managing the Scientific Office and supporting digital communication and media work.
+              </p>
             </div>
-        </div>
-    </section>
 
-    <section id="experience" class="experience">
+            <div class="fact-list">
+              <div class="fact-item">
+                <span>01</span>
+                <div>
+                  <h3>Education</h3>
+                  <p>BSc in Information Engineering (AI)</p>
+                </div>
+              </div>
+              <div class="fact-item">
+                <span>02</span>
+                <div>
+                  <h3>Experience</h3>
+                  <p>Scientific Office Manager at Qudwa Association</p>
+                </div>
+              </div>
+              <div class="fact-item">
+                <span>03</span>
+                <div>
+                  <h3>Interests</h3>
+                  <p>Web development, cloud, security, and AI tools</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section muted-section">
         <div class="container">
-            <h2 class="section-title">Experience & Training</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Scientific Office Manager</h3>
-                        <p class="company">Qudwa Association, Lattakia</p>
-                        <p class="date">April 2026 - Present</p>
-                        <ul>
-                            <li>Manage scientific office operations and coordinate team activities</li>
-                            <li>Prepare formal reports and documentation with digital archiving</li>
-                            <li>Conduct monthly performance evaluations and team assessments</li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="section-head">
+            <p class="section-label">Experience</p>
+            <h2>Career and training</h2>
+          </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Media Office Member</h3>
-                        <p class="company">Qudwa Association, Lattakia</p>
-                        <p class="date">October 2025 - Present</p>
-                        <ul>
-                            <li>Produce and edit video content documenting association events using Adobe Premiere Pro</li>
-                            <li>Design graphic materials for social media using Canva</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>AI & Cloud Computing Bootcamp</h3>
-                        <p class="company">EARTech IT - Intensive Training</p>
-                        <p class="date">July 2025 - September 2025</p>
-                        <ul>
-                            <li>Trained in image, video, and audio generation using Google AI Studio</li>
-                            <li>Hands-on labs with Google Cloud and AWS in time-boxed environments</li>
-                            <li>Solved top 3 machines on Hack The Box using Kali Linux</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>UI/UX Design Program</h3>
-                        <p class="company">Dalini - Syrian Forum - Intensive Training</p>
-                        <p class="date">April 2026 - July 2026</p>
-                        <ul>
-                            <li>Completed comprehensive user experience and interface design training</li>
-                            <li>Developed professional design portfolio and case studies</li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-meta">April 2026 — Present</div>
+                <h3>Scientific Office Manager</h3>
+                <p class="meta">Qudwa Association, Lattakia</p>
+                <ul>
+                  <li>Coordinate scientific office workflows and team tasks.</li>
+                  <li>Prepare official reports, records, and digital archives.</li>
+                  <li>Monitor office activity and evaluate monthly progress.</li>
+                </ul>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <section id="education" class="education">
+            <div class="timeline-item">
+              <div class="marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-meta">October 2025 — Present</div>
+                <h3>Media Office Member</h3>
+                <p class="meta">Qudwa Association, Lattakia</p>
+                <ul>
+                  <li>Edit event videos using Adobe Premiere Pro.</li>
+                  <li>Design visual content for social media and campaigns using Canva.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-meta">July 2025 — September 2025</div>
+                <h3>AI & Cloud Computing Bootcamp</h3>
+                <p class="meta">EARTech IT</p>
+                <ul>
+                  <li>Worked with Google AI Studio for image, video, and audio generation.</li>
+                  <li>Completed practical labs on AWS and Google Cloud.</li>
+                  <li>Practiced cybersecurity fundamentals and solved tasks on Hack The Box.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="edu-grid">
-                <div class="edu-card">
-                    <div class="edu-icon">🎓</div>
-                    <h3>Bachelor's in Information Engineering</h3>
-                    <p class="edu-school">University of Lattakia</p>
-                    <p class="edu-date">2023 - 2028 (Expected)</p>
-                    <p class="edu-details">Specialization: Artificial Intelligence</p>
-                </div>
-                <div class="edu-card">
-                    <div class="edu-icon">🛡️</div>
-                    <h3>AI & Cloud Computing Bootcamp</h3>
-                    <p class="edu-school">EARTech IT</p>
-                    <p class="edu-date">July - September 2025</p>
-                    <p class="edu-details">Intensive daily training in cloud services, cybersecurity, and generative AI</p>
-                </div>
-                <div class="edu-card">
-                    <div class="edu-icon">🎨</div>
-                    <h3>UI/UX Design Program</h3>
-                    <p class="edu-school">Dalini - Syrian Forum</p>
-                    <p class="edu-date">April - July 2026</p>
-                    <p class="edu-details">Intensive training in user experience and interface design</p>
-                </div>
-            </div>
-        </div>
-    </section>
+          <div class="section-head">
+            <p class="section-label">Projects</p>
+            <h2>Selected work</h2>
+          </div>
 
-    <section id="skills" class="skills">
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-header">
+                <h3>Qudwa Association Website</h3>
+                <a href="https://qudwa.pages.dev" target="_blank" rel="noreferrer">Live</a>
+              </div>
+              <p>
+                Designed and developed the association website with a responsive structure and clean presentation.
+              </p>
+              <div class="tags">
+                <span>Next.js</span>
+                <span>Supabase</span>
+                <span>Tailwind</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>Qudwa Forms Platform</h3>
+                <a href="https://qudwa-form.pages.dev" target="_blank" rel="noreferrer">Live</a>
+              </div>
+              <p>
+                Built a forms platform for the association to improve digital interaction and information collection.
+              </p>
+              <div class="tags">
+                <span>Forms</span>
+                <span>UX</span>
+                <span>Web App</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>Form Builder Platform</h3>
+                <span class="status">In Development</span>
+              </div>
+              <p>
+                Developing a branded form-building system aligned with the association's identity and workflows.
+              </p>
+              <div class="tags">
+                <span>Supabase</span>
+                <span>Platform</span>
+                <span>Branding</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>Second Opinion</h3>
+                <a href="https://behance.net/gallery/253513189/" target="_blank" rel="noreferrer">Case Study</a>
+              </div>
+              <p>
+                UX/UI design project connecting patients with specialist doctors, designed in Figma.
+              </p>
+              <div class="tags">
+                <span>Figma</span>
+                <span>UI/UX</span>
+                <span>Mobile</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section muted-section">
         <div class="container">
-            <h2 class="section-title">Technical Skills & Arsenal</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Web Development</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Next.js</span>
-                        <span class="skill-tag">HTML/CSS/JavaScript</span>
-                        <span class="skill-tag">Tailwind CSS</span>
-                        <span class="skill-tag">Responsive Design</span>
-                    </div>
-                </div>
+          <div class="section-head">
+            <p class="section-label">Skills</p>
+            <h2>Technical capabilities</h2>
+          </div>
 
-                <div class="skill-category">
-                    <h3>Backend & Databases</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Supabase</span>
-                        <span class="skill-tag">Database Design</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">Problem Solving</span>
-                        <span class="skill-tag">Algorithms</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Cloud & Security</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Google Cloud</span>
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Cybersecurity</span>
-                        <span class="skill-tag">Kali Linux</span>
-                        <span class="skill-tag">Hack The Box</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>AI & Creative Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Google AI Studio</span>
-                        <span class="skill-tag">Image Generation</span>
-                        <span class="skill-tag">Video Generation</span>
-                        <span class="skill-tag">Audio Generation</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Design & Productivity</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">Adobe Premiere Pro</span>
-                        <span class="skill-tag">Canva</span>
-                        <span class="skill-tag">Microsoft Office</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Developer Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git/GitHub</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">VS Code</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Arabic (Native)</span>
-                        <span class="skill-tag">English (C2 - 93/100)</span>
-                    </div>
-                </div>
+          <div class="skills-grid">
+            <div class="skill-box">
+              <h3>Web</h3>
+              <div class="tags">
+                <span>Next.js</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Tailwind</span>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <section id="contact" class="contact">
+            <div class="skill-box">
+              <h3>Backend & Data</h3>
+              <div class="tags">
+                <span>Supabase</span>
+                <span>Database</span>
+                <span>APIs</span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <h3>Programming</h3>
+              <div class="tags">
+                <span>C++</span>
+                <span>Algorithms</span>
+                <span>Problem Solving</span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <h3>Cloud & Security</h3>
+              <div class="tags">
+                <span>Google Cloud</span>
+                <span>AWS</span>
+                <span>Cybersecurity</span>
+                <span>Kali Linux</span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <h3>AI & Creative</h3>
+              <div class="tags">
+                <span>Google AI Studio</span>
+                <span>Generative AI</span>
+                <span>Canva</span>
+                <span>Premiere Pro</span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <h3>Languages</h3>
+              <div class="tags">
+                <span>Arabic</span>
+                <span>English (C2)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
         <div class="container">
-            <h2 class="section-title">Let's Build Something Amazing Together!</h2>
-            <p class="contact-subtitle">Open to internships, freelance projects, and exciting opportunities</p>
-            <div class="contact-methods">
-                <a href="mailto:somoshia@gmail.com" target="_blank" class="contact-card">
-                    <span class="contact-icon">✉️</span>
-                    <span>somoshia@gmail.com</span>
-                </a>
-                <a href="tel:+9630993251135" class="contact-card">
-                    <span class="contact-icon">📱</span>
-                    <span>+963 999 325 1135</span>
-                </a>
-                <a href="https://github.com/subhi-muhshieh" target="_blank" class="contact-card">
-                    <span class="contact-icon">💻</span>
-                    <span>github.com/subhi-muhshieh</span>
-                </a>
-                <a href="https://linkedin.com/in/subhi-muhshiah-03ab803b8" target="_blank" class="contact-card">
-                    <span class="contact-icon">🔗</span>
-                    <span>linkedin.com/in/subhi-muhshiah</span>
-                </a>
-            </div>
-        </div>
-    </section>
+          <div class="section-head">
+            <p class="section-label">Education</p>
+            <h2>Academic background</h2>
+          </div>
 
-    <footer class="footer">
-        <p>© 2026 Subhi Muhshieh | Building the future, one line of code at a time</p>
+          <div class="edu-grid">
+            <article class="edu-card">
+              <h3>BSc in Information Engineering</h3>
+              <p class="edu-school">University of Lattakia</p>
+              <p>2023 — 2028 (Expected)</p>
+              <p>Specialization in Artificial Intelligence</p>
+            </article>
+
+            <article class="edu-card">
+              <h3>AI & Cloud Computing Bootcamp</h3>
+              <p class="edu-school">EARTech IT</p>
+              <p>2025</p>
+              <p>Practical work in cloud systems, cyber security, and AI tools.</p>
+            </article>
+
+            <article class="edu-card">
+              <h3>UI/UX Design Program</h3>
+              <p class="edu-school">Dalini — Syrian Forum</p>
+              <p>2026</p>
+              <p>Focused on UX research, design systems, and interface design.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div>
+            <p class="section-label dark">Contact</p>
+            <h2>Let's build something meaningful.</h2>
+          </div>
+
+          <div class="contact-list">
+            <a href="mailto:somoshia@gmail.com">somoshia@gmail.com</a>
+            <a href="tel:+9630993251135">0993251135</a>
+            <a href="https://github.com/subhi-muhshieh" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/subhi-muhshiah-03ab803b8" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Subhi Muhshieh</div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
