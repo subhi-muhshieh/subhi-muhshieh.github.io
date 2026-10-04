@@ -52,12 +52,14 @@ a {
   font-weight: 700;
   color: #1a1a1a;
   letter-spacing: -0.5px;
+  flex-shrink: 0;
 }
 
 .nav {
   display: flex;
   gap: 40px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav a {
@@ -621,19 +623,46 @@ a {
 }
 
 @media (max-width: 768px) {
-  .nav-wrap,
-  .section,
-  .hero {
-    padding: 20px 24px;
+  .container {
+    padding: 0 20px;
+  }
+
+  .nav-wrap {
+    padding: 16px 20px;
+  }
+
+  .brand {
+    font-size: 20px;
   }
 
   .nav {
-    gap: 24px;
-    font-size: 13px;
+    gap: 16px;
+    font-size: 12px;
+  }
+
+  .nav a {
+    font-size: 12px;
+  }
+
+  .hero,
+  .section {
+    padding: 60px 20px;
+  }
+
+  .hero-grid {
+    gap: 40px;
   }
 
   .hero-copy h1 {
-    font-size: 40px;
+    font-size: 36px;
+  }
+
+  .title-line {
+    font-size: 16px;
+  }
+
+  .lead {
+    font-size: 15px;
   }
 
   .cta-row {
@@ -642,10 +671,46 @@ a {
 
   .btn {
     width: 100%;
+    padding: 10px 24px;
+    font-size: 13px;
   }
 
   .section-head h2 {
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .section-label {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+
+  .profile-card {
+    padding: 24px;
+    font-size: 13px;
+  }
+
+  .profile-card li {
+    padding: 10px 0;
+    font-size: 13px;
+  }
+
+  .fact-item {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .fact-item span {
+    width: 40px;
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .fact-item h3 {
+    font-size: 13px;
+  }
+
+  .fact-item p {
+    font-size: 12px;
   }
 
   .timeline {
@@ -656,19 +721,164 @@ a {
     left: -18px;
   }
 
+  .timeline-card {
+    padding: 16px;
+  }
+
+  .timeline-card h3 {
+    font-size: 16px;
+  }
+
+  .timeline-meta {
+    font-size: 10px;
+  }
+
   .project-grid,
   .skills-grid,
   .edu-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .project-card,
+  .skill-box,
+  .edu-card {
+    padding: 16px;
+  }
+
+  .project-header h3,
+  .skill-box h3,
+  .edu-card h3 {
+    font-size: 15px;
+  }
+
+  .project-card p {
+    font-size: 13px;
+  }
+
+  .tags span {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+
+  .footer-wrap {
+    gap: 30px;
   }
 
   .footer h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
-  .hero-grid,
+  .footer {
+    padding: 40px 20px 20px;
+  }
+
+  .contact-list {
+    gap: 8px;
+  }
+
+  .contact-list a {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
   .about-grid,
-  .footer-wrap {
+  .hero-grid {
     gap: 30px;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .nav-wrap {
+    padding: 12px 16px;
+  }
+
+  .brand {
+    font-size: 18px;
+  }
+
+  .nav {
+    gap: 12px;
+    font-size: 11px;
+  }
+
+  .nav a {
+    font-size: 11px;
+  }
+
+  .hero,
+  .section {
+    padding: 40px 16px;
+  }
+
+  .hero-grid {
+    gap: 20px;
+  }
+
+  .hero-copy h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .title-line {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .lead {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .eyebrow {
+    font-size: 10px;
+    margin-bottom: 16px;
+  }
+
+  .profile-card {
+    padding: 16px;
+  }
+
+  .profile-card li {
+    padding: 8px 0;
+    font-size: 12px;
+  }
+
+  .section-head h2 {
+    font-size: 20px;
+  }
+
+  .section-head {
+    margin-bottom: 32px;
+  }
+
+  .footer-wrap {
+    gap: 20px;
+  }
+
+  .footer h2 {
+    font-size: 20px;
+  }
+
+  .contact-list {
+    flex-direction: column;
+  }
+
+  .contact-list a {
+    width: 100%;
+    padding: 10px 12px;
+  }
+
+  .section-label {
+    font-size: 10px;
   }
 }
