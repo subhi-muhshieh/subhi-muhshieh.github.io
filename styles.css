@@ -13,6 +13,8 @@ body {
   background: #ffffff;
   color: #1a1a1a;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -21,9 +23,9 @@ a {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 40px;
 }
 
 /* Header & Navigation */
@@ -39,7 +41,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .brand {
@@ -51,14 +55,14 @@ a {
 
 .nav {
   display: flex;
-  gap: 32px;
+  gap: 40px;
   align-items: center;
 }
 
 .nav a {
   font-size: 14px;
   font-weight: 500;
-  color: #555;
+  color: #666;
   transition: color 0.2s;
 }
 
@@ -68,22 +72,28 @@ a {
 
 /* Hero Section */
 .hero {
-  padding: 120px 0 80px;
+  padding: 80px 40px;
   background: #fafafa;
+}
+
+.hero .container {
+  padding: 0;
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  gap: 60px;
+  gap: 80px;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .hero-copy h1 {
   font-size: 56px;
   font-weight: 800;
   line-height: 1.1;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   color: #000;
   letter-spacing: -1px;
 }
@@ -92,7 +102,7 @@ a {
   font-size: 20px;
   font-weight: 600;
   color: #2563eb;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .eyebrow {
@@ -105,13 +115,13 @@ a {
   color: #2563eb;
   padding: 8px 12px;
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .lead {
   font-size: 16px;
   line-height: 1.8;
-  color: #555;
+  color: #666;
   margin-bottom: 32px;
   max-width: 600px;
 }
@@ -160,6 +170,7 @@ a {
   border-radius: 8px;
   padding: 32px;
   line-height: 1.8;
+  height: fit-content;
 }
 
 .mini-tag {
@@ -191,11 +202,17 @@ a {
 
 .profile-card strong {
   color: #000;
+  font-weight: 600;
 }
 
 /* Sections */
 .section {
-  padding: 100px 0;
+  padding: 80px 40px;
+}
+
+.section .container {
+  padding: 0;
+  max-width: 1200px;
 }
 
 .muted-section {
@@ -236,18 +253,18 @@ a {
 .about-grid {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  gap: 48px;
+  gap: 60px;
 }
 
 .text-block {
   display: grid;
-  gap: 16px;
+  gap: 20px;
 }
 
 .text-block p {
   font-size: 15px;
   line-height: 1.8;
-  color: #555;
+  color: #666;
 }
 
 .fact-list {
@@ -276,6 +293,7 @@ a {
   border-radius: 50%;
   font-weight: 700;
   font-size: 12px;
+  flex-shrink: 0;
 }
 
 .fact-item h3 {
@@ -289,6 +307,7 @@ a {
   font-size: 13px;
   color: #666;
   line-height: 1.6;
+  margin: 0;
 }
 
 /* Timeline */
@@ -358,15 +377,17 @@ a {
 
 .timeline-card ul {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .timeline-card li {
   padding: 6px 0 6px 20px;
   position: relative;
   font-size: 14px;
-  color: #555;
+  color: #666;
   line-height: 1.6;
+  margin: 0;
 }
 
 .timeline-card li::before {
@@ -415,7 +436,7 @@ a {
 
 .project-card p {
   font-size: 14px;
-  color: #555;
+  color: #666;
   line-height: 1.6;
 }
 
@@ -446,7 +467,7 @@ a {
   border-radius: 4px;
   font-size: 12px;
   font-weight: 500;
-  color: #555;
+  color: #666;
 }
 
 /* Skills Grid */
@@ -500,7 +521,7 @@ a {
 
 .edu-card p {
   font-size: 13px;
-  color: #555;
+  color: #666;
   margin-bottom: 4px;
   line-height: 1.6;
 }
@@ -508,16 +529,24 @@ a {
 /* Footer */
 .footer {
   background: #f5f5f5;
-  padding: 64px 0 32px;
+  padding: 64px 40px 32px;
   border-top: 1px solid #e5e5e5;
+}
+
+.footer .container {
+  padding: 0;
+  max-width: 1200px;
 }
 
 .footer-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 48px;
+  gap: 60px;
   align-items: start;
   margin-bottom: 32px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer h2 {
@@ -558,20 +587,26 @@ a {
 .copyright {
   text-align: center;
   font-size: 12px;
-  color: #888;
+  color: #999;
   padding-top: 24px;
   border-top: 1px solid #e5e5e5;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Responsive */
 @media (max-width: 1024px) {
   .hero-grid,
   .about-grid,
-  .project-grid,
-  .skills-grid,
-  .edu-grid,
   .footer-wrap {
     grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .project-grid,
+  .skills-grid,
+  .edu-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .section-head h2,
@@ -585,13 +620,15 @@ a {
 }
 
 @media (max-width: 768px) {
-  .nav {
-    gap: 20px;
-    font-size: 13px;
+  .nav-wrap,
+  .section,
+  .hero {
+    padding: 20px 24px;
   }
 
-  .hero {
-    padding: 80px 0 60px;
+  .nav {
+    gap: 24px;
+    font-size: 13px;
   }
 
   .hero-copy h1 {
@@ -604,10 +641,6 @@ a {
 
   .btn {
     width: 100%;
-  }
-
-  .section {
-    padding: 60px 0;
   }
 
   .section-head h2 {
@@ -630,5 +663,11 @@ a {
 
   .footer h2 {
     font-size: 28px;
+  }
+
+  .hero-grid,
+  .about-grid,
+  .footer-wrap {
+    gap: 30px;
   }
 }
